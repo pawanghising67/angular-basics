@@ -1,0 +1,5 @@
+<button (click)="onClick()"> Show </button>
+<br>
+<div *ngFor="let x of getSellers()">
+    <b [hidden]="hide">{{x}}</b>
+</div>
